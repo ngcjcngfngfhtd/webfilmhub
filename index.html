@@ -1,0 +1,207 @@
+<!DOCTIPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cs/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prata&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>filmhub</title>
+</head>
+<body class="body">
+<div class="header">
+  <center><a href="#default" class="logo">FILMhub</a></center>
+  <div class="header-right">
+    <a class="active" href="index.html">Главная</a>
+      <a href="Subs.html">Подписки</a>
+<div class="dropdown">
+  <button class="dropbtn" href="Films.html">Фильмы</button>
+  <div class="dropdown-content">
+    <a href="Films.html">Комедии</a><br>
+    <a href="Films.html">Ужасы</a><br>
+    <a href="Films.html">Триллеры</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn" href="Serials.html">Сериалы</button>
+  <div class="dropdown-content">
+    <a href="Serials.html">Комедии</a><br>
+    <a href="Serials.html">Ужасы</a><br>
+    <a href="Serials.html">Триллеры</a>
+  </div>
+    
+</div>
+  </div>
+</div>
+  
+<header>
+  <nav class="dws-menu">
+    <center><div class="logophone">FILMhub</div></center>
+    <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+    <label for="menu" style="color: white" class="toggleMenu"><i class="fa fa-bars"></i><center>Меню</center></label>
+    <ul>
+      <li><a href="index.html"><i class="fa fa-home"></i>Главная</a></li>
+      <li>
+        <input type="checkbox" name="toggle" class="toggleSubmenu" id="sub_m1">
+        <a href="Films.html"><i class="fa fa-shopping-cart"></i>Фильмы</a>
+        <label for="sub_m1" class="toggleSubmenu"></label>
+        <ul>       
+          <li><a href="Films.html">Триллеры</a></li>
+          <li><a href="Films.html">Комедии</a></li>
+          <li><a href="Films.html">Комедии</a></li>
+        </ul>
+      </li>
+      <li>
+        <input type="checkbox" name="toggle" class="toggleSubmenu" id="sub_m2">
+        <a href="#"><i class="fa fa-cogs"></i>Сериалы</a>
+        <label for="sub_m2" class="toggleSubmenu"></label>
+        <ul>
+          <li><a href="Serials.html">Комедии</a></li>
+          <li><a href="Serials.html">Комедии</a></li>
+          <li><a href="Serials.html">Триллеры</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
+    
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<center><div class="adds">
+    <img style="max-height: 100" src="images/adds/add1.jpg">
+    </div></center>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+    
+  <img src="https://w.forfun.com/fetch/eb/eb9e7b12e4c28d1f806af547cfb10559.jpeg " alt="Природа" style="width:100%">
+  <div class="text">Downton Abbey<br><b>Аббатство Даунтон (сериал 2010 – 2015)</b>
+</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="https://w.forfun.com/fetch/89/89c8c9b2688a66cbb56fc8222ae459d5.jpeg" alt="Лес" style="width:100%">
+  <div class="text">Breaking Bad<br><b>Во все тяжкие (сериал 2008 – 2013)</b></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="https://i.pinimg.com/originals/98/c5/1e/98c51e8eb12eda774da180b186876810.jpg" alt="Горы" style="width:100%">
+  <div class="text">The Office<br><b>
+Офис (сериал 2005 – 2013)</b></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 7000); // Меняйте изображение каждые 2 секунды
+}
+</script>
+</body>
+
+<div class="filmbox">
+    <div class="boxF">
+        <a href="s1.html"><img class="linkboxf" src="images/posters/posterss/s1.jpg"></a>
+    </div>
+    <div class="boxF">
+        <a href="s2.html"><img class="linkboxf" src="images/posters/posterss/s2%20(1).jpg"></a>
+    </div>
+    <div class="boxF">
+        <a href="s5.html"><img class="linkboxf" src="images/posters/posterss/s5%20(1).jpg"></a>
+    </div>
+    <div class="boxF">
+        <a href="s10.html"><img class="linkboxf" src="images/posters/posterss/s10%20(1).jpg"></a>
+    </div>
+</div>   
+<div class="filmbox">
+    <div class="boxF">
+        <a href="s7.html"><img class="linkboxf" src="images/posters/posterss/s7.jpg"></a>
+    </div>
+    <div class="boxF">
+        <a href="s4.html"><img class="linkboxf" src="images/posters/posterss/s4%20(1).jpg"></a>
+    </div>
+    <div class="boxF">
+        <a href="s9.html"><img class="linkboxf" src="images/posters/posterss/s9.jpg"></a>
+    </div>
+    <div class="boxF">
+        <a href="s3.html"><img class="linkboxf" src="images/posters/posterss/s3.jpg"></a>
+    </div>
+</div> 
+
+<hr><br><br>
+
+ <div class="webbottom">
+    <nav>
+        <a href="#about">О нас</a><br>
+        <a href="profile">Профиль</a><br>
+        <a href="films">Фильмы</a><br>
+        <a href="#serials">Сериалы</a><br>
+        <a href="subs">Сертификаты и подписки</a>
+    </nav>
+
+    <div class="help">
+       <h1>Служба поддержки</h1>
+        <h2>Мы всегда готовы вам помочь.<br>
+            Наши операторы онлайн 24/7</h2>
+        <div class="wrapper">
+            <ty href="#"><span>Написать в чате</span></ty>
+        </div>
+        <br>
+        <div class="wrapper2">
+            <ty2 href="#home"><span><img style="height: 29" src="images/logos/empty-email.png"></span></ty2>
+        </div>
+    </div>
+        <div class="logobttm">FilmHub</div>
+</div>
+
+
+<a href="#" title="Вернуться к началу" class="topbutton">^Наверх</a>
+    
+
+<center><div class="webbottom1">
+    <nav>
+        <a href="#about">О нас</a><br>
+        <a href="profile">Профиль</a><br>
+        <a href="films">Фильмы</a><br>
+        <a href="#serials">Сериалы</a><br>
+        <a href="subs">Сертификаты и подписки</a>
+    </nav><br><br>
+
+    <center><div class="help1">
+        <h2>Служба поддержки<br><br>Мы всегда готовы вам помочь.<br>
+            Наши операторы онлайн 24/7</h2><br>
+        <div class="imgws"><center><img href="https://web.telegram.org/k/" src="images/logos/tg.png">Telegramm
+            <img href="gmail.com" src="images/logos/mail.png">gMail</center></div>
+    </div></center><br>
+        <div class="logobttm">FilmHub</div>
+    </div></center>
+
+</body>
+</html>
