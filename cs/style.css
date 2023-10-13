@@ -890,7 +890,7 @@ padding: 50;
         padding: 20px 10px;
         background: $blue;
         border: none;
-        font-size: 60;
+        font-size: 30;
         color: black;
         border-bottom: 1px dotted rgba(250, 250, 250, .4);
         @include box-sizing(border-box);
