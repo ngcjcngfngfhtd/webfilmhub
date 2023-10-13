@@ -916,7 +916,7 @@ padding: 50;
 .login-footer{
     float: left;
     width: 100%;
-    font-size: 40;
+    font-size: 20;
     }
 }
 .btn{
@@ -936,7 +936,7 @@ padding: 50;
   color: $blue;
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 50;
+    font-size: 20;
 }
 }
 
